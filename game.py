@@ -136,11 +136,6 @@ def main():
 
   screen = pygame.display.set_mode((block_size * row_length + 2 * margin, block_size * col_length + 2))
 
-  # image = pygame.image.load("rickandmorty.jpg")
-  # image.set_colorkey((255, 255, 255))
-  # image.set_alpha(128)
-  # screen.blit(image, (50, 50))
-
   block = get_next_block()
   next_block = get_next_block()
 
